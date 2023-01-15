@@ -525,6 +525,9 @@ footer {
   }
 
   /* header & our features */
+  nav h1 {
+    font-size: 25px;
+  }
   .header-banner h1,
   .our-feature-right h1 {
     font-size: 38px;
