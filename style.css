@@ -543,7 +543,11 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  /* sponsors-item */
+  /* sponsors section*/
+  .sponsors-container p {
+    width: 100%;
+  }
+
   .sponsors-item {
     grid-template-columns: repeat(1, 1fr);
   }
