@@ -188,8 +188,7 @@ nav ul {
 }
 
 .ten-plus-experience-btn {
-  height: 200px;
-  width: 343px;
+  width: 243px;
   font-size: 25px;
   padding: 30px;
   position: absolute;
@@ -198,7 +197,7 @@ nav ul {
 }
 
 .ten-plus-year {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -417,11 +416,6 @@ footer {
     width: 100%;
   }
 
-  .ten-plus-experience-btn {
-    height: 150px;
-    padding: 20px;
-  }
-
   /* facts-items */
   .some-facts-container h1 {
     text-align: center;
@@ -478,11 +472,12 @@ footer {
 
   /* feature-you-love-container-right */
   .ten-plus-experience-btn {
-    padding: 10px;
-  }
-
-  .ten-plus-year {
-    font-size: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 40%;
+    padding: 15px 30px;
+    font-size: 16px;
   }
 
   /* Connect with us (extra) */
@@ -535,14 +530,11 @@ footer {
 
   /* feature-you-love-container-right */
   .ten-plus-experience-btn {
-    left: 50%;
-    transform: translateX(-50%);
-    height: 100px;
-    width: 75%;
+    padding: 10px 15px;
   }
 
   .ten-plus-year {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   /* facts-items */
