@@ -289,8 +289,9 @@ nav ul {
 
 .sponsors-item {
   margin-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 /* Connect with us (extra) */
@@ -442,8 +443,7 @@ footer {
 
   /* sponsors-item */
   .sponsors-item {
-    gap: 40px;
-    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
   }
 }
 
